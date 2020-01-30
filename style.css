@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(77, 181, 212);
+    box-sizing: border-box;
+}
+#wholepage{
+    padding-left: 150px;
+    color: white;
+}
+
+label{
+    width: 150px;
+    display: inline-block;
+}
+input[type=text], input[type=number], input[type=email] {
+    padding-left: 20px;
+}
+input[type=submit] {
+    margin-left: 154px;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+input[type=submit]:hover {
+    background-color: rgb(127, 225, 255);
+}
+input[type=reset]:hover {
+    background-color: rgb(127, 225, 255);
+}
+form{
+    padding-top: 50px;
+    /* display: flex ;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+input[type=number] {
+    width: 263px;
+}
+input[type=email] {
+    width: 813px;
+}
+#messagebox{
+    padding-bottom: 150px;
+}
+hr{
+    width: 810px;
+    margin-left: 155px;
+    margin-bottom: 25px;
+    color: white;
+    border:solid 1;
+}
+/* second form from here */
+#container{
+    background-color: rgb(104, 23, 104);
+    width: 500px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+input[type=email] {
+    width: 400px;
+}
+input[type=password] {
+    width: 419px;
+}
+input[type=radio] {
+    margin-left: 0;
+}
